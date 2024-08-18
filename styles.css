@@ -1,0 +1,27 @@
+#wordCloud {
+    width: 800px;
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+.word {
+    position: absolute;
+    color: #333;
+    white-space: nowrap;
+    transform-origin: center;
+    font-weight: bold;
+    z-index: 10;
+    text-decoration: none;
+}
+
+#maskCanvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
